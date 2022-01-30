@@ -27,6 +27,9 @@ p {
 img{
     display: block;
 }
+.link{
+    list-style: none;
+}
 .container {
     width: 1200px;
     padding: 0 15px;
@@ -158,9 +161,6 @@ svg{
     padding-top: 200px;
 }
 
-
-
-
 .main-headline{
     font-size: 44px;
     font-weight: 900;
@@ -168,7 +168,6 @@ svg{
     letter-spacing: 0.06em;
     text-align: center;
     color: #FFFFFF;
-
 }
 
 .modal-button{
@@ -194,13 +193,41 @@ svg{
 .our-strenghts .container {
     width: 1200px;
     display: flex;
-    margin-top: 94px;
+    margin-top: 30px;
     margin-bottom: 94px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    display: block;}
+
+.logo-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+     margin-top: 94px;
+}
+.logo-item{
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F4FA;  
+    border-radius: 4px;
+   
+}
+.logo-list>.logo-item:not(:last-child){
+     margin-right: 30px;
 }
 .strenghts-list{
     display: flex;
+    justify-content: center;
     list-style: none;   
 }
+
+
 .strenghts-list > .strenghts-items:not(:last-child) {
     margin-right: 30px;
 }
@@ -223,12 +250,15 @@ svg{
 }
 
 
+
+
 /*############ END OUR STRENGHTS #############*/
 
 /* ############ WHAT DO WE DO ############*/
 
 .what-do-we-do .container{
     width: 1200;
+    
 }
 .img-list{
     display: flex;
@@ -266,7 +296,6 @@ svg{
 }
 
 .card {
-    height: 368px;
     width: 270px;
     background-color: #FFFFFF;
    
@@ -295,7 +324,42 @@ svg{
     text-align: center;
     margin: 0 auto;
     display: block;
+    margin-bottom: 10px;
 }
+.social-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: AFB1B8;
+
+}
+.social-links-link{
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background-color: #fff;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+   
+}
+.social-links-link:hover,
+.social-links-link:focus{
+    background-color: var(--main-color);
+    fill: white;
+}
+.social-icon{
+    fill: #afb1b8;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+.social-icon:hover{
+    fill: white;
+}
+
 
 /* ########### END OUR TEAM ############ */ 
 /*######### FOOTER ########### */
