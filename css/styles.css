@@ -431,10 +431,10 @@ fill:var(--main-color);
 {background-color: #2F303A;
 display: flex;
 align-items: center;
+padding-top: 60px;
+padding-bottom: 60px;
 }
-.footer .container{
-    height: 252px;
-}
+
 
   
 .footer-logo{
@@ -446,14 +446,15 @@ align-items: center;
     letter-spacing: 0.03em;
     color:#FFFFFF;
     display: flex;
-    margin: 0 171;
-    padding-top: 60px;  
+     
 }
 .address-list {
-    display: flex;
-    flex-direction: column;
+    align-items: center;
+    display: block;
     list-style: none;
     margin-top: 20px;
+    margin-left: ;
+
 }
 
 
@@ -475,7 +476,7 @@ align-items: center;
     color: rgba(255, 255, 255, 0.6);  
 }
 
-.join-us{
+.footer-left-content{
     display: flex;
     align-items: center;
     flex-flow: column nowrap; 
@@ -486,8 +487,12 @@ align-items: center;
     color: #FFFFFF;
     display: block;  
     margin: 0,auto; 
+    margin-bottom: 20px;
 }
+.social-links-item:not(:last-child){
+    margin-right: 10px;
 
+}
 
 .social-links-link.dark-background{
     background-color: rgba(255, 255, 255, 0.1);
