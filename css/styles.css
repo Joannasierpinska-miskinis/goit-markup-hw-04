@@ -58,8 +58,7 @@ img{
 /* ########## HEADER ########## */
 
 .header .container{
-    display: flex;
-    align-items: center;   
+    display: flex;   
 }
 .navigation{
     display:flex;
@@ -191,7 +190,7 @@ svg{
 /*############ OUR STRENGHTS #############*/
 
 .our-strenghts .container {
-    width: 1200px;
+    
     display: flex;
     margin-top: 30px;
     margin-bottom: 94px;
@@ -257,12 +256,13 @@ svg{
 /* ############ WHAT DO WE DO ############*/
 
 .what-do-we-do .container{
-    width: 1200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 .img-list{
     display: flex;
-    justify-content: space-between;
     list-style: none;
     margin-bottom: 94px;
 }
@@ -271,9 +271,10 @@ svg{
     font-weight: 700;
     line-height: 1.667;
     letter-spacing: 0.03em;
-    text-align: center;
     color:#212121;
     margin-bottom: 50px;
+    display: block;
+    margin: 0 auto;
 }
 
 /* ############ END WHAT DO WE DO ############*/
@@ -283,6 +284,12 @@ svg{
 .our-team {
     background-color: #F5F4FA;
 }
+.our-team .container{
+    display: flex;
+    align-items: center;
+
+}
+
 .our-team .headline{
     padding-top: 94px;
 }
@@ -381,6 +388,8 @@ svg{
     align-items: center;
     justify-content: center;}
 
+    
+
 .border-box{
     display: flex;
     align-items: center;
@@ -435,7 +444,7 @@ padding-top: 60px;
 padding-bottom: 60px;
 }
 
-.container{
+.footer .container{
     display: flex;
     align-items: center;
 }
@@ -512,7 +521,6 @@ padding-bottom: 60px;
 .header {
     border-bottom: 1px solid #ECECEC;
     display: block;
-    margin
 }
 
 
@@ -520,7 +528,7 @@ padding-bottom: 60px;
 /* ############# BUTTONS ############*/
 
 
-.btn-list {
+.btn-list{
     list-style: none;
     display: flex;
     align-items: center;
@@ -551,6 +559,7 @@ padding-bottom: 60px;
 .btn-nav:hover {
     color: #FFFFFF;
     background-color: var(--main-color);
+    box-shadow:0 0 11px rgba(33,33,33,.2);  
 }
 
 
@@ -576,6 +585,9 @@ padding-bottom: 60px;
     margin-top: 30px; 
     flex-basis: calc (100% / 3 - 30px);
     align-items: center;
+}
+.portfolio-list-item:hover{
+box-shadow:0 0 11px rgba(33,33,33,.2);
 }
 .project-headline {
     font-family: Roboto;
