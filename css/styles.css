@@ -147,7 +147,7 @@ svg{
 .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)),
-    url("/images/img-overlay.jpg");
+    url("images/img-overlay.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -478,19 +478,27 @@ align-items: center;
 .join-us{
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-flow: column nowrap; 
+   
 }
 .footer-headline{
+    display: flex;
     color: #FFFFFF;
-    
+    display: block;  
+    margin: 0,auto; 
 }
 
-.social-list{
 
+.social-links-link.dark-background{
+    background-color: rgba(255, 255, 255, 0.1);
 }
-.join-us.social-list-link{
-    fill:rgba(255, 255, 255, 0.1);
+.social-icon.dark-background{
+    fill: #FFFFFF;
 }
+.social-links-link.dark-background:hover{
+    background-color: var(--main-color);
+}
+
 /*######### END FOOTER ########### */
 
 /* ############# PORTFOLIO ############*/
@@ -512,9 +520,9 @@ align-items: center;
     align-items: center;
     justify-content: center;
     margin-top: 94px;
-    margin-bottom: 50px;
-    
-}
+    margin-bottom: 50px;  }
+
+
 .btn-nav{ 
     font-family: Roboto;
     font-size: 16px;
