@@ -435,7 +435,10 @@ padding-top: 60px;
 padding-bottom: 60px;
 }
 
-
+.container{
+    display: flex;
+    align-items: center;
+}
   
 .footer-logo{
     font-family: Raleway;
@@ -453,7 +456,6 @@ padding-bottom: 60px;
     display: block;
     list-style: none;
     margin-top: 20px;
-    margin-left: ;
 
 }
 
