@@ -439,7 +439,10 @@ padding-bottom: 60px;
     display: flex;
     align-items: center;
 }
-  
+.footer-left-content{
+    margin-right: 70px;
+}
+
 .footer-logo{
     font-family: Raleway;
     font-size: 26px;
@@ -453,7 +456,6 @@ padding-bottom: 60px;
 }
 .address-list {
     align-items: center;
-    display: block;
     list-style: none;
     margin-top: 20px;
 
@@ -478,12 +480,9 @@ padding-bottom: 60px;
     color: rgba(255, 255, 255, 0.6);  
 }
 
-.footer-left-content{
-    display: flex;
-    align-items: center;
-    flex-flow: column nowrap; 
+ 
    
-}
+
 .footer-headline{
     display: flex;
     color: #FFFFFF;
