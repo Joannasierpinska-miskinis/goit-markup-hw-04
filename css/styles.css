@@ -341,7 +341,7 @@ svg{
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-    color: AFB1B8;
+    color: #AFB1B8;
 
 }
 .social-links-link{
@@ -446,18 +446,14 @@ align-items: center;
     letter-spacing: 0.03em;
     color:#FFFFFF;
     display: flex;
-    margin: 0 auto;
-    padding-top: 60px;
-   
-    
-    
+    margin: 0 171;
+    padding-top: 60px;  
 }
 .address-list {
     display: flex;
     flex-direction: column;
     list-style: none;
     margin-top: 20px;
- 
 }
 
 
@@ -476,8 +472,24 @@ align-items: center;
     margin-bottom: 9px;
 }
 .address-mail, .address-phone {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);  
+}
+
+.join-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-headline{
+    color: #FFFFFF;
     
+}
+
+.social-list{
+
+}
+.join-us.social-list-link{
+    fill:rgba(255, 255, 255, 0.1);
 }
 /*######### END FOOTER ########### */
 
@@ -485,6 +497,8 @@ align-items: center;
 
 .header {
     border-bottom: 1px solid #ECECEC;
+    display: block;
+    margin
 }
 
 
