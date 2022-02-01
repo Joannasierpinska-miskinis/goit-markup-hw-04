@@ -256,26 +256,30 @@ svg{
 /* ############ WHAT DO WE DO ############*/
 
 .what-do-we-do .container{
-    display: flex;
     align-items: center;
     justify-content: center;
     
 }
-.img-list{
-    display: flex;
-    list-style: none;
-    margin-bottom: 94px;
-}
 .headline{
+    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.667;
     letter-spacing: 0.03em;
     color:#212121;
     margin-bottom: 50px;
-    display: block;
-    margin: 0 auto;
 }
+
+.img-list{
+    display: flex;
+    list-style: none;
+    margin-bottom: 94px;
+}
+.img-list-item:not(:last-child){
+    margin-right: 30px;
+}
+
+
 
 /* ############ END WHAT DO WE DO ############*/
 /* ########### OUR TEAM ############ */ 
@@ -285,12 +289,15 @@ svg{
     background-color: #F5F4FA;
 }
 .our-team .container{
-    display: flex;
     align-items: center;
+    
 
 }
 
 .our-team .headline{
+    text-align: center;
+    
+    margin-bottom: 50px;
     padding-top: 94px;
 }
 .cards-box {
